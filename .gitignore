@@ -2,6 +2,9 @@
 
 /API/bin
 .vs/*
+/API/obj
+/Test/bin
+/Test/obj
 
 # Compiled output
 /dist
