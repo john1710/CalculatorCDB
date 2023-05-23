@@ -24,9 +24,9 @@ Em resumo, o projeto consiste em um frontend Angular que permite ao usuário ins
 ``` dotnet run ```
 
 - Front-end:
- 1. Nague até a pasta web-app e execute os seguintes commandos:
+ 1. Navegue até a pasta web-app e execute os seguintes commandos:
  2. ```npm install``` <br/> ``` ng serve ```
  
 - Testes:
- 1. Nague até a pasta Test  e execute o seguinte commando:
+ 1. Navegue até a pasta Test  e execute o seguinte commando:
  ``` dotnet test ```
