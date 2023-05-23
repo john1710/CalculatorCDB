@@ -1,0 +1,53 @@
+<div class="content">
+  <mat-card class="calculator-card">
+    <h2>Calculadora CDB</h2>
+    <form [formGroup]="formGroup" (ngSubmit)="submitForm(formGroup.value)">
+      <div class="input-container">
+        <mat-form-field>
+          <mat-label>Meses</mat-label>
+          <input
+            type="number"
+            matInput
+            placeholder="Meses"
+            formControlName="months"
+            required
+          />
+          <mat-error *ngIf="formGroup.get('months')?.errors?.['required']"
+            >Valor obrigatório.</mat-error
+          >
+          <mat-error *ngIf="formGroup.get('months')?.errors?.['min']"
+            >Deve ser maior que 0</mat-error
+          >
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Valor</mat-label>
+          <input
+            type="number"
+            matInput
+            placeholder="Valor"
+            formControlName="amount"
+            required
+          />
+          <mat-error *ngIf="formGroup.get('amount')?.errors?.['required']"
+            >Valor obrigatório.</mat-error
+          >
+          <mat-error *ngIf="formGroup.get('amount')?.errors?.['min']"
+            >Deve ser maior que 0</mat-error
+          >
+        </mat-form-field>
+      </div>
+      <h3 *ngIf="result">
+        Valor Bruto: {{ result.grossAmount! | currency : "BRL" }}
+      </h3>
+      <h3 *ngIf="result">
+        Valor Liquido: {{ result.netAmount! | currency : "BRL" }}
+      </h3>
+      <div class="submit-container">
+        <button mat-raised-button color="primary" [disabled]="!formGroup.valid">
+          Calcular
+        </button>
+      </div>
+    </form>
+  </mat-card>
+</div>

@@ -1,0 +1,2 @@
+C:\Users\johnk\source\repos\CDBCalculator\web-app\obj\Debug\web-app.esproj.SuggestedBindingRedirects.cache
+C:\Users\johnk\source\repos\CDBCalculator\web-app\obj\Debug\web-app.esproj.CoreCompileInputs.cache

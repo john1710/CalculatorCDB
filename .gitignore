@@ -1,0 +1,52 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+/API/bin
+.vs/*
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/web-app/node_modules
+/web-app/npm-debug.log
+/web-app/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+web-app/.vscode/*
+web-app/!.vscode/settings.json
+web-app/!.vscode/tasks.json
+web-app/!.vscode/launch.json
+web-app/!.vscode/extensions.json
+web-app/.history/*
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/web-app/.angular/cache
+web-app/.sass-cache/
+/web-app/connect.lock
+/web-app/coverage
+/web-app/libpeerconnection.log
+web-app/testem.log
+/web-app/typings
+
+# System files
+.DS_Store
+Thumbs.db

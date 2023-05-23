@@ -1,0 +1,21 @@
+.header{
+  background-color: #4054b4;
+  color: white;
+  font-size: 18px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 0.35rem;
+  box-shadow: 0 8px 4px -2px gray;
+
+  .material-icons-outlined{
+    font-size: 30px
+  }
+  .header-title{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+}
+
+

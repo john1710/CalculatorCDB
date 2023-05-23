@@ -1,0 +1,33 @@
+.content{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  .calculator-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 20px;
+
+    mat-form-field{
+      margin-right: 20px;
+    }
+
+    h2{
+      font-weight: 500;
+    }
+
+    .input-container{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .submit-container{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+}

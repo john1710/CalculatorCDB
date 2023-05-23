@@ -1,0 +1,12 @@
+.home{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .text{
+    padding: 0px 50px 0px 50px;
+    font-size: 18px;
+  }
+}
