@@ -1,4 +1,5 @@
-﻿using API.Interfaces.Services;
+﻿using API.Data.Inputs;
+using API.Interfaces.Services;
 using API.Models;
 using Microsoft.AspNetCore.Mvc;
 

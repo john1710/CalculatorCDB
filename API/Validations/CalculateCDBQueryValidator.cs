@@ -1,4 +1,4 @@
-﻿using API.Models;
+﻿using API.Data.Inputs;
 using FluentValidation;
 
 namespace API.Validations
@@ -7,8 +7,8 @@ namespace API.Validations
     {
         public CalculateCDBQueryValidator()
         {
-            RuleFor(p => p.Months).GreaterThanOrEqualTo(1).WithMessage("a quantidade de meses precisa ser maior que 0");
-            RuleFor(p => p.Amount).GreaterThanOrEqualTo(1).WithMessage("o valor precisa ser maior que 0");
+            RuleFor(p => p.Months).GreaterThan(0).WithMessage("a quantidade de meses precisa ser maior que 0");
+            RuleFor(p => p.Amount).GreaterThan(0).WithMessage("o valor precisa ser maior que 0");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using API.Models;
+﻿using API.Data.Inputs;
+using API.Models;
 
 namespace API.Interfaces.Services
 {

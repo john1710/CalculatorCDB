@@ -1,4 +1,4 @@
-﻿using API.Models;
+﻿using API.Data.Inputs;
 using API.Services;
 using API.Validations;
 using FluentValidation;
