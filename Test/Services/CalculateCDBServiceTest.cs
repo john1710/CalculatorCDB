@@ -35,6 +35,7 @@ namespace Test.Services
 
         [Theory]
         [InlineData(0, 300)]
+        [InlineData(1, 256)]
         [InlineData(24, -45)]
         [InlineData(-3, 4650.35)]
         [InlineData(48, 0.9)]
